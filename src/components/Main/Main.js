@@ -9,7 +9,7 @@ const Main = () => {
 
     return (
         <>
-       <h1 className="poop">Main Component</h1>
+       <h1 className="poop">Kelsey Dickson</h1>
 
         </>
     )
