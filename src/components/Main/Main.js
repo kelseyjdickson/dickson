@@ -1,8 +1,9 @@
 import React from "react"
+// import Hello from './src/Hello.js'
 
 
+import './src/Styles.scss';
 
-import './Styles.scss';
 
 
 const Main = () => {
@@ -10,7 +11,7 @@ const Main = () => {
     return (
         <>
        <h1 className="poop">Kelsey Dickson</h1>
-
+        <Hello name="Kelsey"/>
         </>
     )
 }
