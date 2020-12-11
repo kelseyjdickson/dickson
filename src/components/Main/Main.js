@@ -1,17 +1,17 @@
 import React from "react"
-// import Hello from './src/Hello.js'
+import Hello from './Hello.js'
 
 
-import './src/Styles.scss';
+ import './Styles.scss';
 
 
 
-const Main = () => {
+const Main = (props) => {
 
     return (
         <>
-       <h1 className="poop">Kelsey Dickson</h1>
-        <Hello name="Kelsey"/>
+       <h1 className="poop">Hi {props.name}</h1>
+    <Hello />
         </>
     )
 }
