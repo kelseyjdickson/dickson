@@ -1,14 +1,17 @@
 import React from 'react'
-import kelsey from './images/me.png'
+import kelsey from './me.png'
 
 import '../Footer/Styles.scss'
 
 
 const Footer = () => {
-    return(
+    return (
         <>
-        <h1 className="footer">Footer</h1>
-        <img src={kelsey} alt="picture of kelsey"/>
+            <div className="footer">
+                <h1>About</h1>
+                <img className="footer__image"src={kelsey} alt="picture of kelsey" />
+                
+            </div>
         </>
     )
 }

@@ -2,8 +2,16 @@
 @import '../../styles/utils/mixins';
 @import '../../styles/utils/colors';
 
-.poop{
-    color: $main-color;
+
+.top{
+    background-color: #8BB2D2;
+    color: white;
+    padding: 0.5rem;
     @include font-style;
-  
+
+    &top__poop{
+        color: $main-color;
+        @include font-style;
+      
+    }
 }

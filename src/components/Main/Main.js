@@ -10,7 +10,10 @@ const Main = (props) => {
 
     return (
         <>
-       <h1 className="poop">Hi {props.name}</h1>
+        <div className="top">
+            <h1>Kelsey Dickson</h1>
+        </div>
+       <h1 className="top__poop">Hi {props.name}</h1>
     <Hello />
         </>
     )

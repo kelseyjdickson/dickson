@@ -1,8 +1,15 @@
 @import '../../styles/utils/mixins';
 
 .footer{
-    background-color: black;
+    background-color: #8BB2D2;
     color: white;
-    padding: 4rem;
+    padding: 2rem;
     @include font-style;
+
+    &__image{
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+
+    }
 }
