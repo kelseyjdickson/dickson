@@ -1,0 +1,8 @@
+@import '../../styles/utils/mixins';
+
+.footer{
+    background-color: black;
+    color: white;
+    padding: 4rem;
+    @include font-style;
+}
