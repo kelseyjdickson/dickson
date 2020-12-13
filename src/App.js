@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <div className="App-header"></div>
       
-      <Main name="Kelsey" />
+      <Main />
       <Footer />
     </div>
   );
