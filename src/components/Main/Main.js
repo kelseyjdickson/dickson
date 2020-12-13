@@ -11,7 +11,7 @@ const Main = (props) => {
     return (
         <>
             <div className="top">
-                <h1>Kelsey Dickson</h1>
+                <h1 className="top__name">Kelsey Dickson</h1>
               
 
             </div>
