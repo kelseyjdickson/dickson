@@ -9,8 +9,9 @@
     padding: 0.5rem;
     @include font-style;
 
-    &top__twitter{
-        color: white;
+    &__twitter{
+        height: 20px;
+        width: 30px;
     }
 
     &__poop{
