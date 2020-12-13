@@ -9,24 +9,6 @@
     padding: 0.5rem;
     @include font-style;
 
-    &__twitter{
-        height: 20px;
-        width: 30px;
-    }
-
-    &__poop{
-        color: $main-color;
-        @include font-style;
-      
-    }
-    &__tweet{
-        font-size: 100px;
-    }
-    &__link{
-        height: 30px;
-    }
+  
 }
 
-.fa-medium, .fa-twitter-square, .fa-linkedin{
-    color: white;
-}
