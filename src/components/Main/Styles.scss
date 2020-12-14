@@ -4,6 +4,7 @@
 
 
 .top{
+    display:flex;
     background-color: #cfc7f8;
     background-image: linear-gradient(315deg, #cfc7f8 0%, #ebbba7 74%);
     // background-color: #8BB2D2;
@@ -13,7 +14,21 @@
 
     &__name{
         letter-spacing: 2px;
+        margin-right: 1500px;
+        
     }
   
 }
+.resume-right{
+    letter-spacing: 2px;
+    @include font-style;
+     
+    margin-top: 23px;
+}
+.resume{
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
 
+}

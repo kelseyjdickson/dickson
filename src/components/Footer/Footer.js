@@ -10,7 +10,7 @@ const Footer = () => {
             <div className="footer">
                 <h1 className="footer__about">About</h1>
                 <img className="footer__image"src={kelsey} alt="picture of kelsey" />
-                <p className="footer__info">Developer in NYC with passion for front-end design and debugging</p>
+                <div className="footer__info">Developer in NYC with passion for front-end design and debugging</div>
                 <div className="footer__icon-container">
                     <a href="https://twitter.com/KelseyD485">
                         <i class="fab fa-twitter-square fa-2x"></i>

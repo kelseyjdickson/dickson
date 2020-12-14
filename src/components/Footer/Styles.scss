@@ -17,16 +17,15 @@
   
 
         &__image{
-            width: 100px;
-            height: 100px;
+            width: 150px;
+            height: 150px;
             border-radius: 100px;
             
         }
 
         &__info{
-             line-height: 1.6;
-            word-wrap: break-all;
-            font-size: 20px;
+             line-height: 20px;
+             font-size: 18px;
         }
 
         &__icon-container{
@@ -42,6 +41,6 @@
 }
 
 .fa-medium, .fa-twitter-square, .fa-linkedin,.fa-envelope-square{
-    color: white;
+    color: gray;
     padding: 10px;
 }
