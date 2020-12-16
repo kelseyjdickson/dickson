@@ -18,7 +18,7 @@ const Main = (props) => {
                    
                 </div>
                 <div className="resume-right">
-                    <a className="resume"href="https://github.com/kelseyjdickson/resume/raw/main/kjdicksonfinal2020.pdf" className="resume">Resume</a>
+                    <a className="res-link"href="https://github.com/kelseyjdickson/resume/raw/main/kjdicksonfinal2020.pdf" >Resume</a>
                 </div>
             </div>
 
