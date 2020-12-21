@@ -1,15 +1,25 @@
 
 @import '../../styles/utils/mixins';
 @import '../../styles/utils/colors';
+@import '../../styles/utils/breakpoints';
 
 
-.top{
+.top {
     display:flex;
     background-color: #cfc7f8;
     background-image: linear-gradient(315deg, #cfc7f8 0%, #ebbba7 74%);
     color: white;
     padding: 0.5rem;
     @include font-style;
+    top: 0px;
+    flex-shrink: 0;
+    width: 100%;
+    position: relative;
+    // flex-shrink: 0;
+    // width: 100%;
+    @media only screen and (max-width: $mobile){
+        flex-shrink: 0;
+    }
 
     &__name{
         letter-spacing: 2px;
@@ -21,8 +31,8 @@
 .resume-right{
     letter-spacing: 2px;
     @include font-style;
-    margin-top: 21px;
-    margin-left: 80%;
+    // margin-top: 21px;
+    // margin-left: 80%;
    
     
 

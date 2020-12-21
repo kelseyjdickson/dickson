@@ -7,10 +7,15 @@ import '../Footer/Styles.scss'
 const Footer = () => {
     return (
         <>
+  
             <div className="footer">
                 <h1 className="footer__about">About</h1>
                 <img className="footer__image"src={kelsey} alt="profile of kelsey" />
-                <span className="footer__info">Developer in NYC with passion for front-end design and debugging</span>
+                <p className="footer__info">Developer in NYC with passion for front-end design and debugging. A forever student who loves to have growth opportunites.</p>
+                <div className="resume-right">
+                    <a className="res-link"href="https://github.com/kelseyjdickson/resume/raw/main/kjdicksonfinal2020.pdf" >Resume</a>
+                </div>
+                
                 <div className="footer__icon-container">
                     <a href="https://twitter.com/KelseyD485">
                         <i class="fab fa-twitter-square fa-2x"></i>

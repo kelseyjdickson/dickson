@@ -17,9 +17,9 @@ const Main = (props) => {
                     <h1 className="top__name">Kelsey Dickson</h1>
                    
                 </div>
-                <div className="resume-right">
+                {/* <div className="resume-right">
                     <a className="res-link"href="https://github.com/kelseyjdickson/resume/raw/main/kjdicksonfinal2020.pdf" >Resume</a>
-                </div>
+                </div> */}
             </div>
 
 

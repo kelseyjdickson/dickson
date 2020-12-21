@@ -1,19 +1,23 @@
 @import '../../styles/utils/mixins';
+@import '../../styles/utils/breakpoints';
 
 .footer{
-    
-    
+    //looking at bc code from footer
+    bottom: 0px;
+    flex-shrink: 0;
+    width: 100%;
+    position: relative;
     background-color: #cfc7f8;
     background-image: linear-gradient(315deg, #cfc7f8 0%, #ebbba7 74%);
     color: white;
      
     @include font-style;
     
-    position:absolute;
-    left:0;
-    bottom:0;
-    right:0;
-
+    // position:absolute;
+    // left:0;
+    // bottom:0;
+    // right:0;
+   
   
 
         &__image{
@@ -25,15 +29,23 @@
         }
 
         &__info{
-             line-height: 20px;
+             line-height: 24px;
              font-size: 18px;
+             word-wrap: break-word;
+             width: 150px;
+           
+
         }
 
         &__icon-container{
             display: flex;
             justify-content: flex-end;
+           
             
         
+        }
+        &__resume-right{
+
         }
 
       
@@ -44,4 +56,29 @@
 .fa-medium, .fa-twitter-square, .fa-linkedin,.fa-envelope-square,.fa-github-square{
     color: gray;
     padding: 10px;
+    @media only screen and(max-width: $mobile)  {
+        
+        flex-direction: column;
+    }
+    
 }
+
+.resume-right{
+    letter-spacing: 2px;
+    @include font-style;
+    // margin-top: 21px;
+    // margin-left: 80%;
+   
+    
+
+}
+.res-link {
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    
+    
+
+}
+
