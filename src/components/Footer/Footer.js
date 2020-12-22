@@ -1,5 +1,6 @@
 import React from 'react'
 import kelsey from './me.png'
+import kel from './kel.jpeg'
 
 import '../Footer/Styles.scss'
 
@@ -9,7 +10,7 @@ const Footer = () => {
         <>
   
             <div className="footer">
-                <h1 className="footer__about">About</h1>
+                
                 <img className="footer__image"src={kelsey} alt="profile of kelsey" />
                 <p className="footer__info">Developer in NYC with passion for front-end design and debugging. A forever student who loves to have growth opportunites.</p>
                 <div className="resume-right">

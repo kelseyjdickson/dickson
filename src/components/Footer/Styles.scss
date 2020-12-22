@@ -24,6 +24,8 @@
             width: 150px;
             height: 150px;
             border-radius: 100px;
+            // padding-top: 20px;
+            // padding-left: 20px;
            
             
         }
@@ -31,7 +33,7 @@
         &__info{
              line-height: 24px;
              font-size: 18px;
-             word-wrap: break-word;
+            //  word-wrap: break-word;
              width: 150px;
            
 
@@ -44,9 +46,7 @@
             
         
         }
-        &__resume-right{
-
-        }
+       
 
       
     
