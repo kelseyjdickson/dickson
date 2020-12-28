@@ -1,7 +1,7 @@
 import React from 'react'
 import kelsey from './me.png'
 import kel from './kel.jpeg'
-
+import ballet from './ballet.png'
 import '../Footer/Styles.scss'
 
 
@@ -11,7 +11,7 @@ const Footer = () => {
   
             <div className="footer">
                 
-                <img className="footer__image"src={kelsey} alt="profile of kelsey" />
+                <img className="footer__image"src={ballet} alt="profile of kelsey" />
                 <p className="footer__info">Developer in NYC with passion for front-end design and debugging. A forever student who loves to have growth opportunites.</p>
                 <div className="resume-right">
                     <a className="res-link"href="https://github.com/kelseyjdickson/resume/raw/main/kjdicksonfinal2020.pdf" >Resume</a>
