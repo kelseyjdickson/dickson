@@ -9,6 +9,7 @@
     text-align: center;
     @include font-style;
     color: linear-gradient(315deg, #cfc7f8 0%, #ebbba7 74%);
+    
   
 }
 
@@ -35,6 +36,7 @@
       width: 500px;
       height: 232px;
       border-radius: 20px;
+      margin-bottom: 60px;
    
   }
 }

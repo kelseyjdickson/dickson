@@ -1,24 +1,27 @@
 import React from 'react'
 import kelsey from './me.png'
-import kel from './kel.jpeg'
-import kelby from './kelby.png'
+
+
 import '../Footer/Styles.scss'
 
 
 const Footer = () => {
     return (
         <>
-  
+
             <div className="footer">
-                
-                <img className="footer__image"src={kelby} alt="profile of kelsey" />
-                <p className="footer__info">Developer in NYC with passion for front-end design and debugging. A forever student who loves to have growth opportunites.</p>
-                <div className="resume-right">
-                    <a className="res-link"href="https://github.com/kelseyjdickson/resume/raw/main/kjdicksonfinal2020.pdf" >Resume</a>
+
+                <img className="footer__image" src={kelsey} alt="profile of kelsey" />
+                <div className="info">
+
+                    <p className="footer__info">Developer in NYC with passion for front-end design and debugging. Views challenges as opportunites as growth. Loves to collaborate with others and share success.</p>
                 </div>
-                
+                <div className="resume-right">
+                    <a className="res-link" href="https://github.com/kelseyjdickson/resume/raw/main/kjdicksonfinal2020.pdf" >Resume</a>
+                </div>
+
                 <div className="footer__icon-container">
-                    <a href="https://twitter.com/KelseyD485">
+                <p>Let's Connect:</p><a href="https://twitter.com/KelseyD485">
                         <i class="fab fa-twitter-square fa-2x"></i>
                     </a>
                     <a href="https://github.com/kelseyjdickson">
@@ -31,10 +34,10 @@ const Footer = () => {
                         <i class="fab fa-medium fa-2x"></i>
                     </a>
                     <a href="mailto: kelseymedved@gmail.com">
-                    <i class="fas fa-envelope-square fa-2x"></i>
+                        <i class="fas fa-envelope-square fa-2x"></i>
                     </a>
                 </div>
-                
+
             </div>
         </>
     )
