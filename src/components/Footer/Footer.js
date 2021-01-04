@@ -14,7 +14,7 @@ const Footer = () => {
                 <img className="footer__image" src={kelsey} alt="profile of kelsey" />
                 <div className="info">
 
-                    <p className="footer__info">Developer in NYC with passion for front-end design and debugging. Views challenges as opportunites as growth. Loves to collaborate with others and share success.</p>
+                    <p className="footer__info">Developer in NYC with passion for front-end design and debugging. Views challenges as an opportunity for growth. Loves to collaborate with others and share success.</p>
                 </div>
 
                 <div className="footer__icon-container">
