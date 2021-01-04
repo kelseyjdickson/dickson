@@ -66,6 +66,8 @@
 .resume-right{
     letter-spacing: 2px;
     @include font-style;
+      position:absolute;
+     left:0;
     // margin-top: 21px;
     // margin-left: 80%;
    

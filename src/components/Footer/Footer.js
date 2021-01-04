@@ -16,11 +16,11 @@ const Footer = () => {
 
                     <p className="footer__info">Developer in NYC with passion for front-end design and debugging. Views challenges as opportunites as growth. Loves to collaborate with others and share success.</p>
                 </div>
+
+                <div className="footer__icon-container">
                 <div className="resume-right">
                     <a className="res-link" href="https://github.com/kelseyjdickson/resume/raw/main/kjdicksonfinal2020.pdf" >Resume</a>
                 </div>
-
-                <div className="footer__icon-container">
                 <p>Let's Connect:</p><a href="https://twitter.com/KelseyD485">
                         <i class="fab fa-twitter-square fa-2x"></i>
                     </a>
