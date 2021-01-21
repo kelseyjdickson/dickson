@@ -25,6 +25,8 @@
     @media only screen and(max-width: $mobile)  {
         
         flex-direction: column;
+        width: 300px;
+        
     }
 
   &__stump{
