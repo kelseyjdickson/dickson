@@ -19,7 +19,7 @@ const Footer = () => {
 
                 <div className="footer__icon-container">
                 <div className="resume-right">
-                    <a className="res-link" href="https://github.com/kelseyjdickson/resume/raw/main/2021 Resume- KJD.pdf" >Resume</a>
+                    <a className="res-link" href="https://github.com/kelseyjdickson/resume/raw/main/Dickson2021.pdf" >Resume</a>
                 </div>
                 <p>Let's Connect:</p><a href="https://twitter.com/KelseyD485">
                         <i class="fab fa-twitter-square fa-2x"></i>
