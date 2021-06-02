@@ -1,7 +1,7 @@
 import React from "react"
 import stumptown from './head1.png'
 import lit from './lit1.png'
-import landing from './landing-page.png'
+
 
 
 
